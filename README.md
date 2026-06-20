@@ -4,29 +4,14 @@
 
 > 一个**单文件 AI Agent 技能（Skill）**，把李笑来《The Half Second / 半秒》一书的核心方法浓缩成可直接调用的工具：用 **ARISE 脚本**改写你的「第一反应」。本仓库以**中文为主体**，并附一份**英文翻译版**。
 
-把这个 [`SKILL.md`](./SKILL.md) 放进任何支持 Skill 的 AI 助手（Claude Code、Claude.ai、GitHub Copilot CLI、Amp 等），当你说「我想改掉某个习惯 / 一被刺激就发火 / 内在的批评声音 / 理财时的恐慌」时，助手就会按书里的方法，帮你**起草脚本 → 做路由检查 → 规划如何装入**。
+把这个 [`SKILL.md`](./SKILL.md) 放进任何支持 Skill 的 AI 助手，当你说「我想改掉某个习惯 / 一被刺激就发火 / 内在的批评声音 / 理财时的恐慌」时
+助手就会按书里的方法，帮你**起草脚本 → 做路由检查 → 规划如何装入**。
 
 > 📄 仓库内的两份技能文件内容一致，语言不同：
 > - [`SKILL.md`](./SKILL.md) —— **中文版（主体）**
 > - [`SKILL.en.md`](./SKILL.en.md) —— **English version**
 >
 > 两者都可直接作为技能使用，按你的语言习惯选一份即可。
-
----
-
-## English (in brief)
-
-A **single-file AI agent skill** that distills the core method of Li Xiaolai's book *The Half Second* into a tool your assistant can use on demand: editing a **"first reaction"** by writing and installing an **ARISE script**.
-
-A first reaction is what you do in the **half-second** before you can think — reaching for the cigarette, snapping at your partner, panic-selling, hearing *"you're not good enough."* Willpower can't reach that window. What edits it is **repeating one chosen sentence** until the brain's familiarity counter makes it the new default. The script framework is **ARISE** — **A**ction (the only required part), **R**eason, **I**dentity, **S**ituation, **E**motion.
-
-Install it in one line:
-
-```bash
-npx skills add LingJingMaster/TheHalfSecond-ARISE-skill -a claude-code
-```
-
-The repo is **bilingual, Chinese-primary**: read **[`SKILL.en.md`](./SKILL.en.md)** for the full English method, or [`SKILL.md`](./SKILL.md) for the Chinese original. All ideas come from Li Xiaolai — see [Credit](#致敬原作者) below and **[@xiaolai](https://github.com/xiaolai)**.
 
 ---
 
@@ -44,15 +29,12 @@ The repo is **bilingual, Chinese-primary**: read **[`SKILL.en.md`](./SKILL.en.md
 | **S** | Situation 情境 | 可选：只在某个线索下触发时才点出 |
 | **E** | Emotion 情绪 | 可选：把**真实**的感受投进去，绝不表演 |
 
-完整方法、构造顺序、装入计划、调音杠杆与安全边界，都在 [`SKILL.md`](./SKILL.md) 里——一页读完。
 
 ---
 
 ## 怎么用
 
 ### 方式一：一行命令安装（推荐）
-
-用开放的 [`skills` CLI](https://github.com/vercel-labs/skills)（以 GitHub 为注册表，支持 Claude Code、Cursor、Codex、OpenCode 等几十种 agent），直接从本仓库安装：
 
 ```bash
 # 安装到当前项目能识别的 agent（自动检测仓库根目录的 SKILL.md）
@@ -61,15 +43,14 @@ npx skills add LingJingMaster/TheHalfSecond-ARISE-skill
 # 指定装到 Claude Code
 npx skills add LingJingMaster/TheHalfSecond-ARISE-skill -a claude-code
 
-# 先看看仓库里有哪些技能
-npx skills add LingJingMaster/TheHalfSecond-ARISE-skill --list
 ```
 
-> CLI 默认识别仓库根目录的 `SKILL.md`（即**中文主体版**）。装好后重启会话，对助手说「我想改掉睡前刷手机的习惯」即可触发。
+> CLI 默认识别仓库根目录的 `SKILL.md`
+装好后重启会话，对助手说「我想改掉睡前刷手机的习惯」即可触发。
 
 ### 方式二：手动复制到技能目录
 
-把 `SKILL.md`（或英文版 `SKILL.en.md`）放到你客户端的技能目录，例如：
+把 `SKILL.md`（或 `SKILL.en.md`）放到你客户端的技能目录，例如：
 
 ```bash
 # Claude Code（个人技能）
@@ -99,21 +80,24 @@ cp SKILL.md ~/.claude/skills/arise-script/   # 想用英文版就换成 SKILL.en
 
 ## 致敬原作者
 
-本技能的全部思想——「半秒」「频率计数器」「routing」「ARISE」「身份是枢纽」「重排而非消除」等——均来自李笑来的著作 **《The Half Second: How first reactions get installed, and how to edit them》**。
+本技能的全部思想——「半秒」「频率计数器」「routing」「ARISE」「身份是枢纽」「重排而非消除」
+均来自李笑来的著作 **《The Half Second: How first reactions get installed, and how to edit them》**。
 
 - 原作者 GitHub：**[@xiaolai](https://github.com/xiaolai)**
 
-这个仓库只是把书中的操作方法整理成了一个便于 AI 助手调用的单文件技能，**版权与原创归原作者所有**。如果这套方法对你有用，强烈建议去读原书，那里有完整的机制论证、研究依据和大量案例。
+这个仓库只是把书中的操作方法整理成了一个便于 AI 助手调用的单文件技能，**版权与原创归原作者所有**
+如果这套方法对你有用，强烈建议去读原书，那里有完整的机制论证、研究依据和大量案例。
 
 ---
 
 ## 说明与边界
 
 - 本技能用于改写**日常的、语言可及的**第一反应。它**不替代**专业医疗或心理治疗。
-- 对于严重创伤、有躯体依赖的成瘾、活动期精神科危机、或带虐待/控制的关系，请寻求专业帮助——具体边界见 [`SKILL.md`](./SKILL.md) 末尾的「什么时候不要用这个方法」。
+- 对于严重创伤、有躯体依赖的成瘾、活动期精神科危机、或带虐待/控制的关系，请寻求专业帮助
 
 ---
 
 ## 许可
 
-技能文件（整理/改写部分）以 MIT 许可发布；其所依据的思想与框架版权归原作者李笑来所有。
+技能文件（整理/改写部分）以 MIT 许可发布；
+其所依据的思想与框架版权归原作者李笑来所有。
