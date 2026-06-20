@@ -14,6 +14,22 @@
 
 ---
 
+## English (in brief)
+
+A **single-file AI agent skill** that distills the core method of Li Xiaolai's book *The Half Second* into a tool your assistant can use on demand: editing a **"first reaction"** by writing and installing an **ARISE script**.
+
+A first reaction is what you do in the **half-second** before you can think — reaching for the cigarette, snapping at your partner, panic-selling, hearing *"you're not good enough."* Willpower can't reach that window. What edits it is **repeating one chosen sentence** until the brain's familiarity counter makes it the new default. The script framework is **ARISE** — **A**ction (the only required part), **R**eason, **I**dentity, **S**ituation, **E**motion.
+
+Install it in one line:
+
+```bash
+npx skills add LingJingMaster/TheHalfSecond-ARISE-skill -a claude-code
+```
+
+The repo is **bilingual, Chinese-primary**: read **[`SKILL.en.md`](./SKILL.en.md)** for the full English method, or [`SKILL.md`](./SKILL.md) for the Chinese original. All ideas come from Li Xiaolai — see [Credit](#致敬原作者) below and **[@xiaolai](https://github.com/xiaolai)**.
+
+---
+
 ## 这是什么
 
 「第一反应」是你在能思考之前的那**半秒**里做的事——伸手拿烟、脱口顶回去、恐慌性割肉、心里冒出「你不够好」。意志力够不到那个窗口，因为它来得太晚。
@@ -34,19 +50,37 @@
 
 ## 怎么用
 
-### Claude Code / Claude.ai 等支持 Skill 的客户端
-把整个文件夹（或其中的 `SKILL.md`）放到你的技能目录，例如：
+### 方式一：一行命令安装（推荐）
+
+用开放的 [`skills` CLI](https://github.com/vercel-labs/skills)（以 GitHub 为注册表，支持 Claude Code、Cursor、Codex、OpenCode 等几十种 agent），直接从本仓库安装：
+
+```bash
+# 安装到当前项目能识别的 agent（自动检测仓库根目录的 SKILL.md）
+npx skills add LingJingMaster/TheHalfSecond-ARISE-skill
+
+# 指定装到 Claude Code
+npx skills add LingJingMaster/TheHalfSecond-ARISE-skill -a claude-code
+
+# 先看看仓库里有哪些技能
+npx skills add LingJingMaster/TheHalfSecond-ARISE-skill --list
+```
+
+> CLI 默认识别仓库根目录的 `SKILL.md`（即**中文主体版**）。装好后重启会话，对助手说「我想改掉睡前刷手机的习惯」即可触发。
+
+### 方式二：手动复制到技能目录
+
+把 `SKILL.md`（或英文版 `SKILL.en.md`）放到你客户端的技能目录，例如：
 
 ```bash
 # Claude Code（个人技能）
 mkdir -p ~/.claude/skills/arise-script
-cp SKILL.md ~/.claude/skills/arise-script/
-# 重启会话后，对助手说「我想改掉睡前刷手机的习惯」即可触发
+cp SKILL.md ~/.claude/skills/arise-script/   # 想用英文版就换成 SKILL.en.md
+# 重启会话后即可触发
 ```
 
 > 不同客户端的技能目录略有差异（如 `~/.copilot/skills`、`~/.agents/skills`、`.claude/skills` 等），放到对应位置即可。
 
-### 直接当提示词用
+### 方式三：直接当提示词用
 即使你的助手不支持 Skill 机制，也可以直接把 `SKILL.md` 的内容贴给它当系统提示 / 上下文，然后描述你想改的反应。
 
 ---
