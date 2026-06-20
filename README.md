@@ -1,6 +1,6 @@
 # TheHalfSecond-ARISE-skill
 
-> 🌐 **语言 / Language**：**中文（主）** · [English](./SKILL.en.md)
+> 🌐 **语言 / Language**：**中文（主）** · [English](./README.en.md)
 
 > 一个**单文件 AI Agent 技能（Skill）**，把李笑来《The Half Second / 半秒》一书的核心方法浓缩成可直接调用的工具
 > 用 **ARISE 脚本**改写你的「第一反应」。本仓库以**中文为主体**，并附一份**英文翻译版**。
