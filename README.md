@@ -1,8 +1,16 @@
 # TheHalfSecond-ARISE-skill
 
-> 一个**单文件 AI Agent 技能（Skill）**，把李笑来《The Half Second / 半秒》一书的核心方法浓缩成可直接调用的工具：用 **ARISE 脚本**改写你的「第一反应」。
+> 🌐 **语言 / Language**：**中文（主）** · [English](./SKILL.en.md)
+
+> 一个**单文件 AI Agent 技能（Skill）**，把李笑来《The Half Second / 半秒》一书的核心方法浓缩成可直接调用的工具：用 **ARISE 脚本**改写你的「第一反应」。本仓库以**中文为主体**，并附一份**英文翻译版**。
 
 把这个 [`SKILL.md`](./SKILL.md) 放进任何支持 Skill 的 AI 助手（Claude Code、Claude.ai、GitHub Copilot CLI、Amp 等），当你说「我想改掉某个习惯 / 一被刺激就发火 / 内在的批评声音 / 理财时的恐慌」时，助手就会按书里的方法，帮你**起草脚本 → 做路由检查 → 规划如何装入**。
+
+> 📄 仓库内的两份技能文件内容一致，语言不同：
+> - [`SKILL.md`](./SKILL.md) —— **中文版（主体）**
+> - [`SKILL.en.md`](./SKILL.en.md) —— **English version**
+>
+> 两者都可直接作为技能使用，按你的语言习惯选一份即可。
 
 ---
 
