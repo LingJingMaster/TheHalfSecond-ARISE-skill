@@ -56,8 +56,8 @@ Put `SKILL.md` (or the English `SKILL.en.md`) into your client's skills director
 
 ```bash
 # Claude Code (personal skills)
-mkdir -p ~/.claude/skills/arise-script
-cp SKILL.en.md ~/.claude/skills/arise-script/   # use SKILL.md for the Chinese version
+mkdir -p ~/.claude/skills/half-second-arise
+cp SKILL.en.md ~/.claude/skills/half-second-arise/   # use SKILL.md for the Chinese version
 # Restart the session to trigger it
 ```
 

@@ -1,5 +1,5 @@
 ---
-name: arise-script
+name: half-second-arise
 description: "用 ARISE 脚本改写一个「第一反应」的单文件方法（源自李笑来《The Half Second / 半秒》）。当用户想改掉某个习惯、改掉一被刺激就发火的反应、对付内在的批评声音、止住理财时的恐慌，或任何自动发生的「半秒」行为时使用——用来起草脚本、做路由检查、规划如何装入。"
 ---
 

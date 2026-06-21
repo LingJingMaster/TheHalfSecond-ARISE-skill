@@ -57,8 +57,8 @@ npx skills add LingJingMaster/TheHalfSecond-ARISE-skill -a claude-code
 
 ```bash
 # Claude Code（个人技能）
-mkdir -p ~/.claude/skills/arise-script
-cp SKILL.md ~/.claude/skills/arise-script/   # 想用英文版就换成 SKILL.en.md
+mkdir -p ~/.claude/skills/half-second-arise
+cp SKILL.md ~/.claude/skills/half-second-arise/   # 想用英文版就换成 SKILL.en.md
 # 重启会话后即可触发
 ```
 

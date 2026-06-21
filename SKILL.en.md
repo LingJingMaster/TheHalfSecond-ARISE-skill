@@ -1,5 +1,5 @@
 ---
-name: arise-script
+name: half-second-arise
 description: "Single-file method for editing a first reaction by writing and installing an ARISE script (from Li Xiaolai's The Half Second). Use when the user wants to change a habit, snap reaction, inner-critic voice, money panic, or any automatic 'half-second' behavior — to draft a script, route-check it, or plan its installation."
 ---
 
