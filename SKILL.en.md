@@ -1,115 +1,312 @@
 ---
-name: half-second-arise
-description: "Single-file method for editing a first reaction by writing and installing an ARISE script (from Li Xiaolai's The Half Second). Use when the user wants to change a habit, snap reaction, inner-critic voice, money panic, or any automatic 'half-second' behavior — to draft a script, route-check it, or plan its installation."
+name: li-half-second-arise
+description: "Chinese single-file skill. Based on Li Xiaolai's The Half Second, it uses Chapter 7's ARISE method to write installable first-reaction scripts for habits, procrastination, inner criticism, anger, financial panic, and other automatic half-second responses."
 ---
 
-> 🌐 **Language**: [中文（主 / primary）](./SKILL.md) · **English (this file)**
-> This English version is a translation of the primary Chinese [`SKILL.md`](./SKILL.md).
+<!-- argument-hint: [first reaction to rewrite, old action, trigger situation, ARISE, script debugging, installation plan] -->
 
-# ARISE — write & install a script to edit a first reaction
+# Rewriting the Half-Second First Reaction
 
-A "first reaction" is what you do in the **half-second** before you can think — reach for the cigarette, snap at your partner, panic-sell, hear "you're not good enough." Willpower can't reach that window (it arrives too late). What edits it is **repeating one chosen sentence** until the brain's *familiarity counter* makes it the new default. This file is the whole method on one page.
+This is a Chinese single-file skill. It does only one thing: rewrite one of the user's automatic reactions into an action script that can be repeatedly installed.
 
----
+The method mainly comes from Chapter 7 of *The Half Second*. ARISE is the backbone; other chapters are used only to explain why the script is written this way, how to repeat it, and where it should not be used.
 
-## Why it works (30 seconds)
-
-- **The frequency counter**: the half-second runs on a mechanism that **counts, it doesn't check**. It asks "have I heard this before?" not "is this true?" The highest-count sentence becomes your default reaction.
-- **Routing is everything**: a sentence only installs if it slips *past* the conscious mind to the counter. The conscious mind **vetoes** anything it can evaluate — feeling-claims ("I am calm"), predictions ("I will quit"), mystical claims. It has **no veto** against a plain *action*.
-- **The one diagnostic**: say your draft out loud. **If it makes you feel worse → you routed it wrong** (that wince is the veto). If it feels *mildly silly, then nothing* → it's routed right.
+When the user says, "Whenever I get triggered, I always..." "I know better but can't do it," or "I want to change this reaction," do not start with theory. First catch that half-second.
 
 ---
 
-## ARISE — the five dimensions
+## Working Habits
 
-A script has **one mandatory piece (Action)** and **four optional dimensions**. Don't fill all five — use the fewest that work.
+Ask about actions first, not personality. If the user says, "I have no self-control," ask: "What did you do in that instant?"
 
-| | Dimension | Status | Rule |
-|---|---|---|---|
-| **A** | **Action** (the spine) | **required** | A behavior the body can do under stress. Small, specific, visible from outside. |
-| **R** | **Reason** | optional | A short, honest `because` you'd still mean on the 1000th rep. Not "because I am X" (circular). |
-| **I** | **Identity** | usually implicit | The "who." Let the action verb carry it. If explicit: "I'm X" — **never** "Because I am X." |
-| **S** | **Situation** | optional | Name a cue only for *situated* scripts ("when X…"). Omit for universal ones. |
-| **E** | **Emotion** | optional (not a slot) | Invest *real* feeling in the words, the reason, a memory, or the saying. Never performed. |
+Write sentences first, not lectures. Unless the user asks for the principle, explain only as much as needed.
 
-**Three constraints on every script**: **present tense · fits one exhale · your own voice.**
+The script should be short. Short enough to say naturally while walking, brushing teeth, or waiting for an elevator. The more it sounds like a poster, the more dangerous it is; the more it sounds like something the user would actually say, the better.
+
+If the script makes the user feel a little silly, you can continue. If it makes the user feel more ashamed, fake, or eager to argue back, rewrite it.
+
+Put safety boundaries up front. Trauma, chemical dependence, psychiatric crisis, abusive relationships, and real-world threats should not be forced through a script.
 
 ---
 
-## How to write one (construction order)
+## Quick Flow
 
-1. **Pick the Action.** What should the half-second *do*? Must be a behavior, not a feeling. ("I take three breaths and ask one question," not "I stay calm.") If a stranger watching couldn't tell whether it happened, it's still a mood/outcome — sharpen it.
-2. **Decide Scope.** Universal or situated?
-   - **Universal** ("I never smoke", "I run my own race") — true across *all* relevant moments. Installs faster, and collapses hundreds of trigger-situations into one default. **Default to this where it's honest.**
-   - **Situated** ("When a bill arrives, I open it within 60 seconds") — when the action only makes sense at a specific cue. Use for relationship/inner-critic scripts (the trigger doesn't fire everywhere).
-   - ⚠ Don't claim universal dishonestly ("I never lose my temper" when you do) — the conscious mind notices and vetoes it.
-3. **Check Identity.** Does the action verb already say who you are? If yes, leave identity implicit. If not, sharpen the action before adding an explicit "I'm…".
-4. **Add a Reason only if needed** — when the conscious mind wants to argue, or for long-haul endurance. Short + honest + specific to the action.
-5. **Invest Emotion honestly** — wherever it's genuinely there (in words / reason / memory / the way you say it). If it's not there, run neutral; the count still accumulates.
+Capture the problem in four items:
 
-**Worked examples (one action, growing dimensions):**
-- `I never smoke.` — action alone, universal, identity implicit
-- `I never smoke, because I want clean lungs.` — + honest reason
-- `When a bill arrives, I open it within sixty seconds.` — situated
-- `When she speaks, I look at her eyes before I answer, because the alternative has been costing me my daughter.` — situated + reason carrying real feeling
+- Trigger cue: when does the old reaction start?
+- Old action: what has already happened inside the half-second?
+- New action: what should happen first in that half-second?
+- Scope: is this sentence universal, or only valid under a specific cue?
 
----
+Example:
 
-## How to install it
+- Trigger cue: the bill arrives.
+- Old action: close it and avoid looking.
+- New action: open the bill.
+- Scope: situational.
 
-- **Repeat it anywhere.** The counter weights by *frequency, not location* — walks, showers, the car, between tasks, before sleep. Don't wait for the trigger moment; use it only as an early reminder.
-- **Expect the protest.** The first ~100 reps feel stupid — **that protest is the method working, not failing** (the conscious mind shouting at a message it can't intercept). Keep going.
-- **Watch for the markers** in order: feels stupid → feels like nothing → **irritation** ("ugh, not this again" = familiarity threshold crossed, keep going several more weeks) → it arrives unprompted → the new reaction beats the old one.
-- **Plan for 3–12 months per script** (median ~66 days, up to 254). Two weeks proves nothing.
-- **Run only 1–2 scripts at a time.** The counter has limited bandwidth.
-- **Maintain.** Installation isn't permanent — the environment keeps rewriting you. Once stable, a script needs only occasional reps (~20 min/year) plus **environmental friction** (cigarettes out of the drawer, phone out of the bedroom). If the old reaction resurfaces, turn the frequency back up.
+The script can be:
+
+`When a bill arrives, I open it within 60 seconds.`
+
+If the user has strong resistance, add a reason:
+
+`When a bill arrives, I open it within 60 seconds, because seeing it gives me choices.`
 
 ---
 
-## Tuning levers (when a script resists)
+## How to Use ARISE
 
-- **Person**: first person by default; **second person** under high stress ("You don't smoke now"); **third person / your name** to create distance ("Xiaolai, breathe once and ask one question").
-- **Language**: a voice installed in your first language (e.g. a childhood inner critic) is often best fought with a script in your **second language** — it bypasses the home ground.
-- **Out loud** when alone (counts heavier); **internal** otherwise.
+ARISE is five design dimensions, not five blanks to fill in.
 
----
+| Dimension | Use |
+|---|---|
+| Action | Required. The behavior to execute in the half-second. Small, concrete, and startable. |
+| Reason | Optional. When consciousness argues back, add a short, true, concrete "because." |
+| Identity | Usually hidden inside the action. If you can avoid writing "I am...", avoid it. |
+| Situation | Optional. Write "when X..." only for situational scripts. |
+| Emotion | Optional. Real emotion can be placed in the wording, reason, memory, or tone. Do not perform it. |
 
-## Two domains need extra care
+Every script also needs to pass three checks:
 
-The mechanics above are the same everywhere, but a technically-correct script can still miss what the person actually needs in these two cases — so say the extra part out loud.
-
-**Inner critic / self-attack** ("you should've done more", "you're not good enough"):
-- **The promise is re-ordering, not silence.** The old voice won't disappear — after months it just stops arriving *first*. This matters because someone expecting the voice to go quiet will hear it return, conclude they failed, and quit. Tell them what success actually feels like: the new line gets there first, the old one becomes background.
-- **Separate a standard from the critic.** A useful standard is specific and points to a fix ("this section needs another pass"); the critic is global and shaming ("you never finish anything"). Script only against the critic — keep the standard, it carries real information.
-- Asking "whose voice is this originally?" is information, not blame — it makes the voice easier to treat as an installation rather than the truth.
-
-**Anger / conflict / relationships:**
-- Under high arousal the first person gets hijacked by the reaction itself ("I'm right, I'm already answering"), so the script can't load. **Switch to second person or your own name** — "[Name], breathe once and ask one question." The strangeness is the distance that lets it through.
-- Script only the *disproportionate* snap — not anger that's a correct alarm at a real wrong. Suppressing appropriate anger is its own problem; if someone seems to be scripting away every anger, flag it.
-- These scripts assume a relationship where both people are, on their best days, trying. If there's abuse or coercive control, a calmer-reaction script just trains someone to absorb harm — that's the safety boundary below, not a script to write.
+- Present tense, not "I will."
+- Sayable in one breath, ideally 3 to 5 seconds.
+- Sounds like the user's own words, not a quote, slogan, or therapy manual.
 
 ---
 
-## Fix a stalled script (5 failure modes)
+## Writing Scripts
 
-1. It targets a **feeling**, not an action → rewrite as a behavior.
-2. The `because` is **not honestly endorsable** → use a plainer reason you actually believe.
-3. The **underlying value is wrong** (the script overrides a true preference, leaves you feeling alienated) → change the identity, or drop the script.
-4. **Environment isn't redesigned** → add friction; you're losing the count to the trigger.
-5. The target is **out of scope** (below) → get the right help.
+Set the Action first. The half-second can do an action; it cannot do a mood.
+
+Usable:
+
+- `I take three breaths, then ask one question.`
+- `When the numbers move, I wait one day before deciding.`
+- `When she speaks, I look at her eyes first, then answer.`
+- `When an error appears, I only look for the next fixable action.`
+
+Not usable:
+
+- `I stay calm.`
+- `I am not anxious.`
+- `I become disciplined.`
+- `I will definitely stop procrastinating from now on.`
+
+The test is simple: can an outsider see that it happened? If not, keep revising.
+
+Then set the scope.
+
+Universal scripts work when the sentence applies across an entire class of situations:
+
+- `I don't smoke.`
+- `I respond; I don't react.`
+- `I judge by weeks, not by minutes.`
+
+Situational scripts work for specific cues:
+
+- `When a bill arrives, I open it within 60 seconds.`
+- `After I put down my coffee, I open the document and write the first sentence.`
+- `When the number falls past the threshold, I wait one day before deciding.`
+
+Universalize only when it is honest. Universal scripts have more repetition opportunities and install faster, but do not use them to suppress justified anger, safety alarms, or real preferences.
+
+Identity usually does not need to be explicit. `I don't smoke` already carries "non-smoker"; `I respond; I don't react` already carries "responder." If the action is too vague, polish the action first, and only consider adding `I am...` at the end. Do not write `Because I am a non-smoker, I don't smoke`; that turns identity into a debate topic.
+
+Add Reason only when needed. A good reason survives the 1000th repetition:
+
+- `Because seeing it gives me choices.`
+- `Because the same number will look different tomorrow.`
+- `Because humiliation does not fix the problem.`
+
+Delete fake reasons. `Because I want to become my best self` is too big; `because the universe will reward me` will break unless the user truly believes it.
+
+Emotion can accelerate installation, but only when it is real. It can appear in the wording, the reason, a specific memory, or the tone of voice. Quiet certainty is better than fake passion.
 
 ---
 
-## When NOT to use this
+## Routing Check
 
-Severe/active trauma or dissociation · chemical dependency (alcohol/opioids/benzodiazepines) · active mania, psychosis, or severe depression · motor-skill mastery (an instrument, a sport) · any abusive or coercive relationship (the target there is safety, not a calmer reaction). The method can *complement* professional care — it does not replace it.
+Ask the user to read the draft aloud once, then observe the bodily reaction.
+
+| Reaction | Handling |
+|---|---|
+| A little silly, unfamiliar, or funny | Continue. |
+| More ashamed, fake, or like lying | Rewrite. |
+| Immediately starts arguing | Shorten it, change the action, delete or revise the reason. |
+| Sounds like a slogan written by someone else | Rewrite it in the user's own words. |
+| Too long or awkward to finish | Compress it. |
+| Feels a little steadier afterward | Move into installation. |
+
+Common replacements:
+
+| Original | Change to |
+|---|---|
+| I am calm | I take three breaths, then ask one question |
+| I am abundant | When a bill arrives, I open it within 60 seconds |
+| I am no longer anxious | When the numbers move, I wait one day |
+| I will be more disciplined | After I put down my coffee, I open the document and write the first sentence |
+| I don't get angry | When she speaks, I look at her eyes first, then answer |
 
 ---
 
-## How I'll help
+## Installation
 
-Tell me the reaction you want to edit. I will:
-1. Find the **action** under it (turn a feeling/outcome into a behavior).
-2. Choose **scope**, check **identity recoverability**, add a **reason/emotion** only if they earn their place.
-3. **Route-check** the draft (does it dodge the conscious mind's veto?).
-4. Hand you a short, present-tense, own-voice script and a realistic **install plan** (where, how often, what the protest/irritation timeline will feel like).
+After the script is written, give the user a realistic installation plan.
+
+Repeat it anywhere. Walking, showering, driving, before sleep, waiting for water to boil: all are valid. The trigger situation is only a reminder, not the only training ground. Waiting until the trigger happens is usually too late.
+
+For the first dozens to hundreds of repetitions, feeling silly is normal. Later, when it becomes the annoyance of "this line again," that may actually be progress. When the script starts appearing on its own, it has begun to compete for position.
+
+Run only one or two scripts at a time. Think in 3 to 12 months; do not conclude after two weeks. Once stable, low-frequency maintenance is enough. If the old reaction occasionally returns, it does not mean failure; it is just a reminder to repeat the script a few more times.
+
+Change the environment at the same time. Do not keep cigarettes in the drawer, the phone by the pillow, the trading app on the first screen, or bills hidden where they cannot be seen. The environment is always writing; the script is not the only pen.
+
+---
+
+## Tuning
+
+If the script feels too fake, the usual causes are: the goal is too large, identity appears too early, the reason is not true, or the wording does not sound like the user. Lower it to one small doable action, delete unnecessary identity, and use plainer language.
+
+If the script feels too weak, the action may be abstract, the cue unclear, or the real reason missing. Make the action more concrete; if needed, turn it into a situational script.
+
+If the user cannot remember it under pressure, compress it. You can also change the grammatical person:
+
+- `I breathe first, then answer.`
+- `You breathe first, then answer.`
+- `Xiao Lin, breathe first, then ask one question.`
+
+If installation makes the user feel less like themselves, stop. The script may be covering a real preference or boundary. Ask again: am I truly willing to become someone who does this action?
+
+---
+
+## Tuning Levers
+
+When the script is basically right but still will not install, do not rush to change the target. Tune these three things first.
+
+Person. Default to first person: `I breathe first, then answer.` Under high pressure, first person can sometimes be hijacked by the old reaction. Switch to second person: `You breathe first, then answer.` If that is still not enough, use the user's own name to create a little distance: `Xiao Lin, breathe first, then ask one question.`
+
+Language. If the old voice was installed in the native language, such as a childhood inner critic, try a second language. Not to sound sophisticated, but to take a different route and avoid the old voice's home field.
+
+Voice. When alone, reading aloud usually carries more weight; when inconvenient, read silently. Do not give a speech, and do not perform emotion. Say it like one true sentence to yourself.
+
+---
+
+## Scenarios
+
+Procrastination: the goal is not "I am disciplined," but starting.
+
+- `After I put down my coffee, I open the document and write the first sentence.`
+- `When I sit at the desk, I do the first two minutes.`
+
+Inner criticism: the goal is not "I am good enough," but replacing attack with correction.
+
+- `When an error appears, I only look for the next fixable action.`
+- `When an old mistake appears, I return to this one thing today.`
+
+Make one thing clear here: the goal is reordering, not silencing the old voice. The old voice may still appear months later; success usually looks like the new sentence arriving first, while the old voice becomes background noise. If the user expects it to disappear completely, the next appearance of the old voice can easily make them think they failed and then quit.
+
+Also separate standards from the critic. Useful standards are concrete and point to a correction, such as "this paragraph needs another pass." The critic is global and humiliating, such as "you can't do anything." Write scripts only for the critic; keep the standards.
+
+Relationship conflict: the goal is not "do not get angry," but making the first action smaller.
+
+- `When she speaks, I look at her eyes first, then answer.`
+- `When voices rise, I breathe first and ask one concrete question.`
+
+Only handle disproportionate reactions. Do not script away real offense, danger signals, or anger that should become a boundary. If the relationship involves control or abuse, a "calmer" script may train the user to absorb harm more smoothly. In that case, the goal is safety, support, leaving, or setting boundaries, not making the reaction more compliant.
+
+Money: the goal is not "I am abundant," but doing one action after seeing the number.
+
+- `When a bill arrives, I open it within 60 seconds.`
+- `When the number falls past the threshold, I wait one day before deciding.`
+- `I judge by weeks, not by minutes.`
+
+Mild to moderate habits: identity-style universal scripts can work, but first confirm there is no medical risk.
+
+- `I don't smoke.`
+- `After dinner, I wash the cup.`
+
+Learning without action: turn understanding into one same-day action.
+
+- `After reading one chapter, I write one sentence to install.`
+- `After learning a method, I only do the first action today.`
+
+---
+
+## Why This Works
+
+When the user asks for the principle, explain briefly:
+
+Many reactions have already started before careful thinking arrives. Willpower is not useless; it is just late. The half-second system is more like a familiarity counter: it first asks, "How many times have I heard this sentence?" rather than reviewing a thesis.
+
+Advertising, family language, platforms, and old experiences are all writing first reactions. ARISE simply lets the user begin writing too. Action sentences are better than mood sentences because actions can be executed; moods can only be waited for. Understanding is also not installation. Being able to explain it does not mean the half-second can do it.
+
+---
+
+## Failure Troubleshooting
+
+When the script does not work, check in this order:
+
+1. Is it writing a feeling instead of an action?
+2. Is the action too large?
+3. Is the universal script dishonest?
+4. Is identity appearing too early?
+5. Is the reason fake?
+6. Does the sentence sound unlike the user?
+7. Has the repetition period been too short?
+8. Is the environment still frequently writing the old reaction back in?
+9. Is the target out of bounds?
+
+---
+
+## Where Not to Force It
+
+Do not rely only on scripts in these situations:
+
+- Severe or active trauma, complex PTSD, dissociation.
+- Chemical dependence involving alcohol, opioids, benzodiazepines, and similar substances.
+- Active mania, psychotic symptoms, severe depression, or self-harm risk.
+- Abuse, control, threats, or real-world safety risks.
+- Complex motor skills such as musical instruments or athletic movements.
+- The script makes the user feel less like themselves, or suppresses real preferences.
+
+In these cases, handle safety, medical care, therapy, and support systems first. ARISE can assist, but cannot replace them.
+
+---
+
+## Output Template
+
+Answer like this by default:
+
+```markdown
+I'll first capture it in half-second format:
+
+- Trigger cue:
+- Old action:
+- New action:
+- Scope:
+
+Script candidates:
+1. ...
+2. ...
+
+I would start with sentence ... because...
+
+Routing check:
+If it only feels a little silly when you say it, continue; if it feels worse or like lying, we revise ...
+
+Installation plan:
+For the next ... weeks/months, run only this sentence. Repeat it whenever you remember, not only when the trigger appears. Feeling silly early on is normal; the annoyance of "this line again" may be progress.
+```
+
+If the user only wants one sentence, keep it shorter:
+
+```markdown
+Start with this sentence:
+
+"..."
+
+Its action is ..., and its scope is ... Do not add too much yet; shorter is easier to install. If it only feels a little silly, continue; if it feels worse, we revise it.
+```
+
+Remember: a good script is usually plain, even a little embarrassing. It is not responsible for making the user feel great on the spot. It is only responsible for handing the half-second a new action before the old reaction arrives.
