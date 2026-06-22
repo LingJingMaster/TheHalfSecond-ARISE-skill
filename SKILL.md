@@ -1,5 +1,5 @@
 ---
-name: li-half-second-arise
+name: half-second-arise
 description: "中文单文件技能。基于李笑来《The Half Second》，用第七章 ARISE 写可安装的第一反应脚本，适合处理习惯、拖延、内在批评、愤怒、理财恐慌等半秒自动反应。"
 ---
 
