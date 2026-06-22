@@ -1,5 +1,5 @@
 ---
-name: li-half-second-arise
+name: half-second-arise
 description: "Chinese single-file skill. Based on Li Xiaolai's The Half Second, it uses Chapter 7's ARISE method to write installable first-reaction scripts for habits, procrastination, inner criticism, anger, financial panic, and other automatic half-second responses."
 ---
 
